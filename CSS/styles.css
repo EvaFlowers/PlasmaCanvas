@@ -1,0 +1,245 @@
+
+* { background-color: black
+
+}
+.pctext {
+    font-size: 15ch;
+    margin: .5ch;
+    margin-bottom: 1ch;
+    text-align: center;
+    color:white;
+    background-color: black;
+    font-family: "offside", regular;
+}
+/* ------------------------Plasma Canvas Photo---------------------------- */
+.hero-image { 
+    background-image: url("../Image/DSC_3257.jpg");
+    background-size: cover;
+    background-position: center;
+    background-color:rgb(105, 0, 0);
+    margin: auto;
+    border-radius: 10ch;
+    height: 100ch;
+    width: 150ch;
+    display: flex;
+    justify-content: center;
+}
+
+.single {
+    font-family: "offside", regular;
+    font-size: 5ch;
+    color: white;
+    text-align: center;
+   }
+.need {
+    margin-left: 33%;
+
+}
+
+/* ------------------------Nav Bar----------------------- */
+nav {
+    clear: both;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: nowrap;
+
+}
+
+ul {
+    list-style: none;
+    overflow: hidden;
+}
+
+
+li {
+    float: left;
+    padding: 2ch;
+    margin: .5ch;
+
+}    
+
+.nav-item {
+    padding: 2ch;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    font-family: "offside", regular;
+    font-size: 4ch;
+
+}
+
+.nav-item:hover {
+    background-color: rgb(105, 0, 0);
+}
+
+.fa-brands {
+    height: 6ch;
+    width: 4ch;
+    color: rgb(105, 0, 0);
+    float: right;
+}
+.fa-brands:hover {
+    color: white;
+}
+:root {
+    --fa-pull-margin: 10ch;
+    text-align: left;
+}
+
+/* --------------------------Columns--------------------------- */
+/* --------------------------Twitter feed------------------------------- */
+.twitter-timeline {
+    clear: both;
+    float: left;
+    width: 22%;
+    padding-left: -8vw;
+}
+.clearfix {
+    clear: both;
+}
+/* --------------------- Videos ------------------------ */
+
+.blisteredworld {
+    float: left;
+    padding-left: 4vw;
+
+}
+/* -----------------------------Right Column------------------------ */
+.right-column {
+    width: 25%;
+
+}
+
+.S1Dlogo{
+    height: 20ch;
+    width: 30ch;
+}
+
+footer {
+    text-align: center;
+    width: 100%;
+    background-color: black;
+}
+
+/* --------------------------------About Page------------------------------------------- */
+.pcis {
+    font-family: "offside" , regular;
+    color: white;
+    font-size: 5ch;
+    clear:both;
+    margin-left: 36%;
+    margin-right: 36%;
+}
+.nameslist{
+    margin-left: 6%;
+    font-family: "offside" , regular;
+    color: rgb(105, 0, 0);
+    font-size: 4ch;
+}
+.recentarticles {
+    font-family: "offside", regular;
+    color: white;
+    text-align: center;
+    font-size: 5ch;
+}
+.bcphoto {
+    height: 28ch;
+    width: 40ch;
+    margin-left: 18%;
+    margin-top: 5ch;
+    border-radius: 6ch;
+    clear:both;
+}
+.bcphoto:hover {
+    opacity: 50%;
+}
+.articletitle1 {
+    font-size:2.5ch;
+    clear: both;
+    font-family: "offside", regular;
+    color: white;
+    margin-left: 14%;
+    display: inline-flex;
+}
+.articletitle2 {
+    font-size: 2.5ch;
+    font-family: "offside", regular;
+    color: white;
+    margin-left: 5%;
+    display: inline-flex
+}
+.articletitle1:hover, .articletitle2:hover {
+    color:rgb(105, 0, 0);
+}
+
+/* ----------------------------------------Contact------------------------------------ */
+.contactus {
+    clear:both;
+    font-size: 5ch;
+    font-family: "offside", regular;
+    color: white;
+    text-align: center;
+
+}
+.fa-solid {
+    color: white;
+    margin-left:50%;
+    max-width: 5ch;
+    height:3ch;
+    text-align:center;
+} 
+.fa-solid:hover {
+    color:rgb(105, 0, 0);
+}
+.email {
+    color: white;
+    font-family: "offside", regular;
+    font-size: 2.5ch;
+    margin-right:33%;
+}
+.emaillink {
+    text-align:center;
+    margin-left: 35%;
+}
+/* -----------------------------contact form---------------------------- */
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 2ch;
+    border-radius: 1ch;
+    box-sizing: border-box;
+    margin-top: 2ch;
+    resize: vertical;
+    clear:left;
+    background-color:rgb(95, 95, 95);
+    color: rgb(105, 0, 0); 
+    font-size: 2ch;
+  }
+  
+  input[type=submit] {
+    background-color: rgb(105, 0, 0);
+    color:black; 
+    padding: 1ch 2ch;
+    border: none;
+    border-radius: .25ch;
+    cursor: pointer;
+    font-size:3ch;
+  }
+  
+  input[type=submit]:hover {
+    background-color: white
+  }
+  
+  .contactform {
+    border-radius: 1ch;
+    background-color: rgb(105, 0, 0);
+    color: white;
+    padding: 1ch;
+    width: 60%;
+    font-family: "offside", regular;
+    margin:auto;
+    margin-top:20ch;
+  
+
+  }
